@@ -97,3 +97,12 @@ background-color: rgb(202, 204, 204);
 width: 55px;
 transition: 0.3s;
 }
+
+.icons .icon {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.icons .icon.show {
+    opacity: 1;
+}
