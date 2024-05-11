@@ -1,0 +1,99 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+   min-height: 100vh;
+   background-color: #484646;
+}
+
+.header {
+position: fixed;
+top: 0; 
+left: 0;
+width: 100%;
+padding: 20px 100px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 100;
+background-color: #484646;
+}
+
+.logo img{
+    width: 100px;
+}
+
+.navbar a {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 50;
+    margin-left: 25px;
+}
+.navbar a:hover {
+    background-color: #fff;
+    padding: 10px;
+    color: #484646;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.landing-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+   
+}
+.landing-page h2{
+    font-weight: 250;
+    color: #fff;
+    font-size: 100px;
+    padding-left: 10px;
+}
+.landing-page h3{
+    font-weight: 250;
+    color: #fff;
+    font-size: 70px;
+    padding-left: 10px;
+}
+.suit img{ 
+    width: 480px;
+    filter: drop-shadow(20px 5px 4px #363636);
+}
+
+.landing-page h1{
+    font-weight: 450;
+    color: #fff;
+    font-size: 200px;
+}
+.text{
+    display: block;
+    line-height: 120px;
+}
+
+.paragraph{
+    padding-left: 15px;
+    line-height: 25px;
+    color: #fff;
+    font-weight: 50;
+}
+
+.icons img{
+    width: 50px;
+    margin-left: 10px;
+    color: black;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 100px;
+}
+
+.icons img:hover{
+background-color: rgb(202, 204, 204);
+width: 55px;
+transition: 0.3s;
+}
