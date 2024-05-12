@@ -9,7 +9,9 @@ body {
    height: 219vh;
    background-color:  #484646;
 }
-
+html {
+    scroll-behavior: smooth;
+  }
 .header {
 position: fixed;
 top: 0; 
@@ -90,7 +92,7 @@ background-color: #484646;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 80px;
+    padding-top: 180px;
    gap: 30px;
 }
 .about-page h1{
@@ -98,13 +100,14 @@ background-color: #484646;
     color: #fff;
     font-size: 50px;
     text-align: center;
-    padding-bottom: 50px;
+   
 }
 .paragraph{
     padding-left: 15px;
     line-height: 25px;
     color: #fff;
     font-weight: 50;
+    padding-bottom: 100px;
 }
 
 .icons img{
