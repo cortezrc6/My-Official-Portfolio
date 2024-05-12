@@ -14,10 +14,21 @@ function typeWriter(element, text, speed) {
 typeWriter(document.getElementById('typewriter-h1'), "I'M ROLLY", 100);
 typeWriter(document.getElementById('typewriter-h2'), "HELLO", 100);
 typeWriter(document.getElementById('typewriter-h3'), "FULLSTACK DEVELOPER", 100);
-typeWriter(document.getElementById('typewriter-p'), "I'm a versatile full-stack developer proficient in both front-end and back-end technologies,", 20);
-typeWriter(document.getElementById('typewriter-p2'), "passionate about crafting seamless digital experiences from concept to deployment.", 20);
-
-
+typeWriter(document.getElementById('typewriter-p'), "I'm a versatile full-stack developer proficient in both front-end and back-end technologies,", 10);
+typeWriter(document.getElementById('typewriter-p2'), "passionate about crafting seamless digital experiences from concept to deployment.", 10);
+typeWriter(document.getElementById('typewriter-p3'), "I'm Engr. Rolly S. Cortez: I'm a passionate software developer with a deep love for technology and", 10);
+typeWriter(document.getElementById('typewriter-p4'), "with a good understanding of data structures and algorithms. With several years of experience in the field,", 10);
+typeWriter(document.getElementById('typewriter-p5'), "I always improving my skills in coding, debugging, and designing efficient and user-friendly", 10);
+typeWriter(document.getElementById('typewriter-p6'), "software or web applications.", 10);
+typeWriter(document.getElementById('typewriter-p7'), "I operate best in group settings when there is open communication and a strong emphasis", 10);
+typeWriter(document.getElementById('typewriter-p8'), "on teamwork to accomplish objectives. Because I have experience with a variety of programming languages", 10);
+typeWriter(document.getElementById('typewriter-p9'), "and frameworks, I can adjust to new problems. and continue to lead the rapidly changing tech industry.", 10);
+typeWriter(document.getElementById('typewriter-p10'), "Also, I'm committed to lifelong learning and keeping up with the most recent", 10);
+typeWriter(document.getElementById('typewriter-p11'), "industry trends to produce state-of-the-art software that surpasses expectations.", 10);
+typeWriter(document.getElementById('typewriter-p12'), "I'm dedicated to creating web applications, mobile apps, and intricate backend systems.", 10);
+typeWriter(document.getElementById('typewriter-p13'), "to providing creative, scalable, and high-quality solutions that have a beneficial effect.", 10);
+typeWriter(document.getElementById('typewriter-p14'), "Lastly, on the outside of the coding. I always enjoy staying active, exploring the great outdoors, and nurturing my", 10);
+typeWriter(document.getElementById('typewriter-p15'), "creative side through various hobbies. Let's connect and collaborate to turn your software dreams into reality!", 10);
 function fadeInImage(element, delay) {
     setTimeout(() => {
         element.classList.add('show');
