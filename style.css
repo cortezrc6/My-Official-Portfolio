@@ -7,13 +7,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 body {
    height: 219vh;
-   background-image: linear-gradient(
-    to bottom, 
-    #484646 0%,
-    #484646 50%,
-    #3A3939 50%,
-    #3A3939 100%
-   );
+   background-color:  #484646;
 }
 
 .header {
@@ -70,11 +64,14 @@ background-color: #484646;
 .suit img{ 
     width: 480px;
     filter: drop-shadow(20px 5px 4px #363636);
+    border-bottom: solid;
+    color: rgb(24, 24, 24);
 }
 .barong img{ 
     width: 376.7px;
     filter: drop-shadow(20px 5px 4px #363636);
-    padding-top: 149px;
+    border-bottom: solid;
+    color: rgb(24, 24, 24);
 }
 .landing-page h1{
     font-weight: 450;
@@ -96,7 +93,7 @@ background-color: #484646;
     align-items: center;
     justify-content: center;
     padding-top: 80px;
-   
+   gap: 30px;
 }
 .about-page h1{
     font-weight: 550;
