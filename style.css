@@ -64,14 +64,12 @@ background-color: #484646;
 .suit img{ 
     width: 480px;
     filter: drop-shadow(20px 5px 4px #363636);
-    border-bottom: solid;
-    color: rgb(24, 24, 24);
+    
 }
 .barong img{ 
     width: 376.7px;
     filter: drop-shadow(20px 5px 4px #363636);
-    border-bottom: solid;
-    color: rgb(24, 24, 24);
+  
 }
 .landing-page h1{
     font-weight: 450;
