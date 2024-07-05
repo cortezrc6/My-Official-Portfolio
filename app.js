@@ -90,3 +90,24 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
+
+function updateActiveNavLink() {
+  const sections = document.querySelectorAll('.scroll');
+  const navLinks = document.querySelectorAll('nav a');
+
+  sections.forEach((section, index) => {
+      const top = section.offsetTop - 150;
+      const bottom = top + section.clientHeight;
+
+      if (window.scrollY >= top && window.scrollY < bottom) {
+          navLinks.forEach((link) => link.classList.remove('active'));
+          navLinks[index].classList.add('active');
+      }
+  });
+}
+
+// Add scroll event listener to update active navigation link
+window.addEventListener('scroll', updateActiveNavLink);
+
+// Initial call to set the active link on page load
+updateActiveNavLink();

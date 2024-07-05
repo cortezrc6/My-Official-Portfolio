@@ -45,6 +45,12 @@ background-color: #484646;
     border-radius: 20px;
     transition: 0.3s;
 }
+.navbar a.active{
+ background-color: #fff;
+ padding: 10px;
+ color: #484646;
+ border-radius: 20px;
+}
 .landing-page{
     display: flex;
     align-items: center;
@@ -104,6 +110,10 @@ background-color: #484646;
     padding-top: 90px;
    
 }
+.contact-me a{
+  text-decoration: none;
+  color: #313030;
+}
 .paragraph{
     padding-left: 15px;
     line-height: 25px;
@@ -128,29 +138,8 @@ background-color: #484646;
     text-transform: uppercase;
 
 }
-.icons img{
-    width: 50px;
-    margin-left: 10px;
-    color: black;
-    border-width: 3px;
-    border-style: solid;
-    border-radius: 100px;
-}
 
-.icons img:hover{
-background-color: rgb(202, 204, 204);
-width: 55px;
-transition: 0.3s;
-}
 
-.icons .icon {
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
-}
-
-.icons .icon.show {
-    opacity: 1;
-}
 
 .skill-title{
     padding-top: 120px;
@@ -338,4 +327,36 @@ transition: 0.3s;
   .active,
   .demo:hover {
     opacity: 1;
+  }
+
+  .contact{
+    padding: 100px;
+    background-color: #2e2d2d;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+  }
+  .footer-logo{
+    padding: 0px;
+  }
+ .footer-logo img{
+    width: 300px;
+ }
+
+ .contact-icons img{
+    margin-top: 10px;
+    width: 50px;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: #000000;
+ }
+  .contact a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .contact-icons img:hover{
+    background-color: #fff;
+    transition: 0.5s;
   }
