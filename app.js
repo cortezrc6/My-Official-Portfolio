@@ -111,3 +111,7 @@ window.addEventListener('scroll', updateActiveNavLink);
 
 // Initial call to set the active link on page load
 updateActiveNavLink();
+
+function toggleMenu() {
+  document.querySelector('.header').classList.toggle('active');
+}

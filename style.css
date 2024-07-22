@@ -204,16 +204,19 @@ background-color: #484646;
 .frontend{
     display: flex;
     gap: 100px;
+    justify-content: center;
 }
 
 .backend{
     display: flex;
     gap: 119px;
+    justify-content: center;
 }
 
 .ui-ux{
     display: flex;
     gap: 210px;
+    justify-content: center;
 }
 
 .skill-icons-ux img{
@@ -232,8 +235,45 @@ background-color: #484646;
    
 }
 
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
 
+.hamburger div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 4px;
+}
+.close-btn {
+  display: none;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 25px;
+  height: 25px;
+}
 
+.close-btn div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  transform-origin: center;
+}
+
+.close-btn div:first-child {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.close-btn div:last-child {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
   
   /* Position the image container (needed to position the left and right arrows) */
   .slideshow-container {
@@ -599,7 +639,114 @@ color: #313030;
   filter: drop-shadow(20px 5px 4px #363636);
   margin-top: 50px;
 }
+
 .skill-title{
-  display: none;
+  padding-top: 120px;
+}
+.skill-title h1{
+  font-weight: 550;
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+ 
+}
+.skills-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+  text-align: center;
+  gap: 200px;
+}
+
+
+
+.skill-content h1{
+  color: #fff;
+  font-weight: 50;
+  padding-top: 5px;
+  font-size: 35px;
+}
+.skill-icons-frontend{
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  
+}
+.skill-icons-backend{
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  
+}
+.skill-icons-ux{
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  
+}
+.skill-icons-frontend img{
+  height: 80px;
+  padding-top: 10px;
+}
+.skill-icons-backend img{
+  padding-top: 10px;
+  height: 50px;
+}
+
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.navbar a {
+    padding: 20px;
+    font-size: 24px;
+    border-top: none;
+}
+
+.hamburger {
+    display: flex;
+}
+
+.header.active .navbar {
+    display: flex;
+}
+
+.header.active .close-btn {
+    display: block;
+}
+.contact {
+  padding: 10px;
+}
+
+.footer-logo img {
+  width: 80px;
+}
+
+.contact-info h3 {
+  font-size: 18px;
+}
+
+.contact-info p {
+  font-size: 14px;
+}
+
+.contact-icons a img {
+  width: 25px;
+  height: 25px;
 }
 }
+
