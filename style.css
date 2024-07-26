@@ -635,7 +635,7 @@ color: #313030;
 }
 
 .barong img{ 
-  width: 376.7px;
+  width: 375px;
   filter: drop-shadow(20px 5px 4px #363636);
   margin-top: 50px;
 }
@@ -720,7 +720,7 @@ color: #313030;
     border-top: none;
 }
 .suit-mobile img{
-  width: 380px;
+  width: 375px;
   filter: drop-shadow(20px 5px 4px #363636);
 }
 .hamburger {
@@ -755,6 +755,82 @@ color: #313030;
 .contact-icons a img {
   width: 25px;
   height: 25px;
+}
+.skill-title{
+  padding-top: 120px;
+}
+.skill-title h1{
+  font-weight: 550;
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+ 
+}
+.skills-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+  text-align: center;
+  gap: 200px;
+}
+
+.skill img{ 
+  width: 156.7px;
+
+}
+
+.skill-content h1{
+  color: #fff;
+  font-weight: 50;
+  padding-top: 5px;
+  font-size: 40px;
+}
+.skill-icons-frontend{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  
+}
+.skill-icons-backend{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  
+}
+.skill-icons-ux{
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  
+}
+.skill-icons-frontend img{
+  height: 80px;
+  padding-top: 10px;
+}
+.skill-icons-backend img{
+  padding-top: 10px;
+  height: 50px;
+}
+
+.frontend{
+  display: flex;
+  gap: 100px;
+}
+
+.backend{
+  display: flex;
+  gap: 117px;
+}
+
+.ui-ux{
+  display: flex;
+  gap: 190px;
+}
+
+.skill-icons-ux img{
+  padding-top: 10px;
+  height: 60px;
 }
 .mySlides img{
   border: #5e5d5d;
