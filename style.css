@@ -635,7 +635,7 @@ color: #313030;
 }
 
 .barong img{ 
-  width: 375px;
+  width: 350px;
   filter: drop-shadow(20px 5px 4px #363636);
   margin-top: 50px;
 }
@@ -720,7 +720,7 @@ color: #313030;
     border-top: none;
 }
 .suit-mobile img{
-  width: 375px;
+  width: 350px;
   filter: drop-shadow(20px 5px 4px #363636);
 }
 .hamburger {
@@ -912,6 +912,9 @@ display: none;
 .demo:hover {
   opacity: 1;
 }
-
+.text h3{
+  display: block;
+  font-size: 30px;
+}
 }
 
